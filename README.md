@@ -16,10 +16,10 @@ let userRegistration = new user(
   "myglass123",
   "briget.jones@gmail.com"
 );
--userRegistration.userData();
--userRegistration.onlyName();
--userRegistration.onlyPassword();
--userRegistration.onlyEmail();
+userRegistration.userData();
+userRegistration.onlyName();
+userRegistration.onlyPassword();
+userRegistration.onlyEmail();
 ```
 
 When you run this code, it will log the user's details to the console.
